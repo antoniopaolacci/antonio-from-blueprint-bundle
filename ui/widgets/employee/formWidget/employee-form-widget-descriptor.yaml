@@ -1,0 +1,6 @@
+code: employee-form-widget
+titles:
+  en: Employee Table Widget
+  it: Employee Table Widget
+group: free
+customUiPath: employee-form-widget.ftl

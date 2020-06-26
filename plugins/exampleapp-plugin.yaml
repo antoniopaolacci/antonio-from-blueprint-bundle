@@ -1,0 +1,20 @@
+kind: "EntandoPlugin"
+apiVersion: "entando.org/v1"
+metadata:
+  name: "exampleapp-plugin"
+spec:
+  image: antoniopaolacci/exampleapp:1.0.0
+  replicas: 1
+  dbms: mysql
+  parameters: {}
+  ingressPath: "/exampleapp"
+  healthCheckPath: "/management/health"
+  securityLevel: "strict"
+  connectionConfigNames: []
+  permissions: []
+  roles:
+  - name: exampleapp-admin
+    code: exampleapp-admin
+  - name: employee-admin
+    code: "employee-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here

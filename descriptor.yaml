@@ -1,0 +1,18 @@
+code: exampleapp-bundle 
+description: This is the exampleapp bundle
+
+components:
+  plugins:
+    - plugins/exampleapp-plugin.yaml
+
+  widgets:
+    - ui/widgets/employee/tableWidget/employee-table-widget-descriptor.yaml
+    - ui/widgets/employee/detailsWidget/employee-details-widget-descriptor.yaml
+    - ui/widgets/employee/formWidget/employee-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+
+  pageModels:
+
+  contentTypes:
+
+  contentModels:

@@ -1,0 +1,6 @@
+code: employee-table-widget
+titles:
+  en: Employee Table Widget
+  it: Employee Table Widget
+group: free
+customUiPath: employee-table-widget.ftl

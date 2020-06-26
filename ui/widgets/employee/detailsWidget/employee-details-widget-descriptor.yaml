@@ -1,0 +1,6 @@
+code: employee-details-widget
+titles:
+  en: Employee Details Widget
+  it: Employee Details Widget
+group: free
+customUiPath: employee-details-widget.ftl
